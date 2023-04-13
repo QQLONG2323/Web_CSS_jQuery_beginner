@@ -1,0 +1,17 @@
+@import url("./normalize.css");
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    background-image: url(./banner.jpg);
+    width: 550px;
+    height: 175px;
+    margin: 0 auto;
+    padding-left: 650px;
+    padding-top: 175px;
+}
+
+h1 {}

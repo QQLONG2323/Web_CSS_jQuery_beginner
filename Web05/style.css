@@ -1,0 +1,40 @@
+html,
+body {
+    font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+    background-color: antiquewhite;
+}
+
+a {
+    color: rgb(92, 61, 3);
+    display: block;
+    border-left: green 3px dashed;
+    border-right: green 3px dashed;
+    border-top: darkkhaki 6px dashed;
+    border-bottom: darkcyan 6px dashed;
+    border-radius: 30px 30px 15px 20px / 15px 15px 30px 10px;
+    width: 250px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    text-decoration: none;
+    box-shadow: 5px 5px 10px 20px orange inset;
+    text-shadow: 5px 5px 10px rgb(22, 22, 21);
+    background: rgb(243, 197, 189);
+    /* Old browsers */
+    background: linear-gradient(to bottom, rgba(243, 197, 189, 1) 0%, rgba(234, 40, 3, 1) 65%, rgba(255, 102, 0, 1) 75%, rgba(232, 108, 87, 1) 86%, rgba(232, 108, 87, 1) 86%, rgba(199, 34, 0, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background-image: linear-gradient(to right, transparent 0%, red 100%);
+}
+
+
+a:hover {
+    background: yellow;
+    color: green;
+    font-weight: bold;
+    border-left: black 6px solid;
+    border-right: black 6px solid;
+    border-top: gray 3px solid;
+    border-bottom: rebeccapurple 3px solid;
+    border-radius: 15px 15px 30px 10px / 30px 30px 15px 20px;
+    box-shadow: 10px 10px 5px 10px greenyellow;
+}

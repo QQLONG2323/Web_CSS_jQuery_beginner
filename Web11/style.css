@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+html,
+body {
+    font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+}
+
+.box {
+    background-image: url(./box.png);
+    width: 300px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.box a {
+    background-image: url(./btn01.png);
+    display: block;
+    height: 60px;
+    line-height: 60px;
+    text-indent: 70px;
+    color: black;
+    text-decoration: none;
+}
+
+.box a:hover {
+    background-image: url(./btn02.png);
+    font-size: 50px;
+    color: blue;
+    text-decoration: underline;
+}

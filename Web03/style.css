@@ -1,0 +1,15 @@
+html,
+body {
+    font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    color: green;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,35 @@
+html,
+body {
+    font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+    background-color: greenyellow;
+}
+
+h1 {
+    background-color: pink;
+    width: 600px;
+    height: 300px;
+}
+
+h2 {
+    background-color: orange;
+}
+
+p {
+    background-color: yellow;
+    width: 600px;
+    height: 300px;
+}
+
+a {
+    background-color: blue;
+    color: beige;
+    width: 300px;
+    height: 150px;
+    display: block;
+    text-align: center;
+    line-height: 150px;
+}
+
+a:hover {
+    background-color: black;
+}

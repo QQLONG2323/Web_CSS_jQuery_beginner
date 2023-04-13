@@ -1,0 +1,31 @@
+@import url("./normalize.css");
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+div {
+    background-image: url(./banner.jpg);
+    width: 1200px;
+    height: 350px;
+    margin: auto;
+    position: relative;
+}
+
+h1 {
+    background-color: brown;
+    position: absolute;
+    left: 650px;
+    top: 125px;
+    z-index: 2;
+}
+
+p {
+    background-color: orange;
+    position: absolute;
+    padding-right: 100px;
+    left: 650px;
+    top: 175px;
+    z-index: 1;
+}

@@ -1,0 +1,29 @@
+@import url(./normalize.css);
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+
+
+div.box4 {
+    display: flex;
+
+}
+
+div.box4.box4_1 {
+    text-align: left;
+    width: 33.3%;
+}
+
+div.box5 {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}

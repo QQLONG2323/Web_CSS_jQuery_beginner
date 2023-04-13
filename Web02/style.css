@@ -1,0 +1,43 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+td.AAA,
+td.CCC {
+    background-color: blueviolet;
+    color: white;
+    padding: 100px;
+}
+
+td.BBB {
+    background-color: brown;
+    color: orange;
+}
+
+p.aaa {
+    background-color: aquamarine;
+    color: black;
+}
+
+td.AAA p,
+td.CCC p {
+    color: red;
+}
+
+td.BBB h1,
+td.BBB p {
+    color: aqua;
+}
+
+td.BBB h4 {
+    color: white;
+}
+
+td.BBB h1 {
+    text-align: center;
+}
+
+td.BBB p {
+    text-align: justify;
+}

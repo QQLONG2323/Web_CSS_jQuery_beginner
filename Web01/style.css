@@ -1,0 +1,19 @@
+body {
+    background-color: brown;
+}
+
+h1 {
+    font-size: 100px;
+    letter-spacing: 10px;
+}
+
+h2 {
+    font-size: 70px;
+}
+
+p {
+    font-size: 40px;
+    letter-spacing: 5px;
+    line-height: 60px;
+    font-weight: bold;
+}
