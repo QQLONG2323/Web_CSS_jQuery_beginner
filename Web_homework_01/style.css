@@ -5,8 +5,24 @@
     margin: 0;
 }
 
+div.box1 {
+    background-image: url(banner.jpg);
+    width: 1200px;
+    height: 480px;
+    margin: 0 auto;
+    box-sizing: border-box;
 
+}
 
+div.box1 h1 {
+    color: white;
+    
+
+}
+
+div.box1 p {
+    color: gray;
+}
 
 
 
