@@ -5,26 +5,54 @@
     margin: 0;
 }
 
-div.box1 {
+
+.box1 {
     background-image: url(banner.jpg);
     width: 1200px;
     height: 480px;
     margin: 0 auto;
     box-sizing: border-box;
-
+    text-align: center;
 }
 
-div.box1 h1 {
+.box1_1 {
+    position: relative;
+    top: 150px;
+}
+
+.box1_2 {
+    margin-top: 180px;
+}
+
+.box1 h1 {
     color: white;
-
-
+    font-size: 50px;
 }
 
-div.box1 p {
+.box1 p {
     color: gray;
 }
 
+.box1 button {
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    color: gray;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+}
 
+.box1 button:hover {
+    border: 1px solid white;
+    color: white;
+}
+
+
+.box2 {
+    width: 1200px;
+    margin: 0 auto;
+}
 
 
 div.box4 {
@@ -44,6 +72,7 @@ div.box4 h2,
 div.box4 h3 {
     color: white;
 }
+
 
 div.box5 {
     background-color: black;
