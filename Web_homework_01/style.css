@@ -51,15 +51,15 @@
 
 .box2 {
     width: 1200px;
-    margin: 0 auto;
-    margin-top: 65px;
-    margin-bottom: 35px;
+    margin: 65px auto 50px;
     display: flex;
+    box-sizing: border-box;
 }
 
 .box2_1 {
     width: 700px;
     margin-right: 50px;
+    margin-left: 30px;
 }
 
 .pic2_1 {
@@ -67,6 +67,56 @@
     margin-bottom: 40px;
 }
 
+.box2_1_1 {
+    font-size: large;
+}
+
+.box2_1_2 {
+    margin-bottom: 40px;
+}
+
+.box2_2 {
+    margin-right: 30px;
+}
+
+.box2_2_1 {
+    margin-top: 5px;
+    margin-bottom: 60px;
+}
+
+.box2_2_2,
+.box2_2_3 {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+    margin-bottom: 30px;
+}
+
+.p_2_2_2,
+.p_2_2_3,
+.p_2_2_4 {
+    opacity: 0.5;
+}
+
+.box2_2_2_1,
+.box2_2_3_1,
+.box2_2_4_1 {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.pic2_2,
+.pic2_3,
+.pic2_4 {
+    margin-right: 20px;
+}
+
+.box3 {
+    background-color: rgba(128, 128, 128, 0.1);
+    width: 1200px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 65px 30px 50px 30px;
+}
 
 div.box4 {
     background-color: gray;
