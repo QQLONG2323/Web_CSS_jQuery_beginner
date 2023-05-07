@@ -52,6 +52,13 @@
 .box2 {
     width: 1200px;
     margin: 0 auto;
+    margin-top: 65px;
+    margin-bottom: 35px;
+    display: flex;
+}
+
+.box2_1 {
+    width: 700px;
 }
 
 
