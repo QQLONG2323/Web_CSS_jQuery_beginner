@@ -115,8 +115,42 @@
     width: 1200px;
     box-sizing: border-box;
     margin: 0 auto;
-    padding: 65px 30px 50px 30px;
+    padding: 90px 30px 50px 30px;
+    display: flex;
+    justify-content: space-between;
 }
+
+.box3_1,
+.box3_2,
+.box3_3 {
+    width: 314px;
+
+}
+
+.box3 h4 {
+    font-size: large;
+}
+
+.pic3_1,
+.pic3_2,
+.pic3_3 {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.box3 button {
+    width: 150px;
+    height: 50px;
+    background-color: orange;
+    color: white;
+    border: 1px;
+    border-radius: 100px;
+    cursor: pointer;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+
 
 div.box4 {
     background-color: gray;
