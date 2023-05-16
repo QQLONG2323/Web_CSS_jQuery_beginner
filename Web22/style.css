@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #CCC;
+}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+	margin: 10px;
+	font-weight: normal;
+}
+
+h2 {
+	font-family: 'Bungee Spice', cursive;
+}
+
+h3 {
+	font-family: 'Black And White Picture', sans-serif;
+}
+
+h4 {
+	font-family: 'aaa';
+}
+
+h5 {
+	font-family: 'Entypo';
+	font-size: larger;
+}
+
+p {
+	font-family: Arial, Helvetica, '微軟正黑體', sans-serif;
+}
+
+.wrapper {
+	background-color: #FFF;
+	width: 1200px;
+	margin: 20px auto;
+	padding: 20px;
+	display: flex;
+	justify-content: space-around;
+	font-size: 20px;
+}
+
+.box {
+	width: 30%;
+	padding: 20px;
+	box-sizing: border-box;
+	border: #333 3px solid;
+	border-radius: 20px;
+}
+
+/*==============================*/
+.box1 {
+	background-color: #F90;
+}
+
+.box1 b {
+	font-family: 'Entypo';
+	font-size: 60px;
+	font-weight: normal;
+	vertical-align: middle;
+	color: green;
+	margin-right: 10px;
+	text-shadow: 2px 2px 2px black;
+}
+
+/*==============================*/
+.box2 {
+	background-color: #9C0;
+}
+
+/*==============================*/
+.box3 {
+	background-color: #09F;
+}
+
+.box2 ul,
+.box3 ul {
+	list-style: none;
+}
+
+.box2 li i {
+	font-family: 'aaa';
+	font-style: normal;
+}
+
+.box3 li a {
+	display: block;
+	background-color: blue;
+	width: 160px;
+	height: 60px;
+	color: white;
+	margin-bottom: 10px;
+	text-decoration: none;
+	line-height: 60px;
+	text-indent: 20px;
+}
+
+.box3 span {
+	font-family: aaa;
+}
+
+
+
+/*======字型嵌入======*/
+@font-face {
+	font-family: 'aaa';
+	/* 自訂字型的名稱 */
+	src: url('./sosa-regular-webfont.ttf');
+	/* 字型檔案的路徑 */
+}
+
+@font-face {
+	font-family: 'Entypo';
+	/* 自訂字型的名稱 */
+	src: url('./Entypo-webfont.ttf');
+	/* 字型檔案的路徑 */
+}
