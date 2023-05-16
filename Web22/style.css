@@ -105,8 +105,17 @@ p {
 
 .box3 span {
 	font-family: aaa;
+	color: gray;
 }
 
+.box3 a:hover {
+	background-color: pink;
+	color: blue;
+}
+
+.box3 a:hover span {
+	color: green;
+}
 
 
 /*======字型嵌入======*/
