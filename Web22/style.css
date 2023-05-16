@@ -34,6 +34,11 @@ h5 {
 	font-size: larger;
 }
 
+img {
+	width: 1200px;
+	height: 1200px;
+}
+
 p {
 	font-family: Arial, Helvetica, '微軟正黑體', sans-serif;
 }
