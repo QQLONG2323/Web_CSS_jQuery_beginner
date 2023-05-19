@@ -30,7 +30,8 @@ body {
     position: absolute;
     left: 300px;
     top: 50px;
-
+    transform: rotate(30deg) scale(1.5) skewX(30deg) translate(20px, 20px);
+    /*旋轉 縮放 傾斜 位移(x軸, y軸)*/
 }
 
 .header h1 img {}
@@ -40,7 +41,7 @@ body {
 }
 
 .nav {
-    background-color: aqua;
+    background-color: rgb(235, 183, 88);
     width: 200px;
 
 }
