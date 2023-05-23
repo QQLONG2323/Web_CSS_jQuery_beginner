@@ -4,7 +4,7 @@
     justify-content: space-around;
 }
 
-.pbox {
+a .pbox {
     background-color: #ffd4d4;
     padding: 20px;
     margin: 20px 0;
@@ -12,7 +12,7 @@
     transition: all .5s;
 }
 
-.pbox:hover{
+a .pbox:hover {
     transform: translate(-4px, -4px);
     box-shadow: 2px 2px 5px #333;
 }
@@ -21,4 +21,9 @@
     border: none;
     border-radius: 0;
     box-shadow: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
 }
