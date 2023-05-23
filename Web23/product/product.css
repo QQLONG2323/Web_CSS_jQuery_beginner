@@ -9,6 +9,12 @@
     padding: 20px;
     margin: 20px 0;
     text-align: center;
+    transition: all .5s;
+}
+
+.pbox:hover{
+    transform: translate(-4px, -4px);
+    box-shadow: 2px 2px 5px #333;
 }
 
 .pbox img {
