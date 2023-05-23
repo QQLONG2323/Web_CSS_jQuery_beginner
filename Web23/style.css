@@ -1,56 +1,57 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html, body{
+html,
+body {
     font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
     background-image: url(./share/bg.gif);
 }
 
-.container{
+.container {
     background-color: white;
     width: 1200px;
     margin: 0 auto;
 }
 
-.header{
+.header {
     background-color: rgb(235, 192, 114);
     display: flex;
     justify-content: space-between;
     padding: 0 20px;
 }
 
-.header ul{
+.header ul {
     display: flex;
     align-items: center;
     list-style: none;
 }
 
-.header li a{
+.header li a {
     margin: 3px;
 }
 
-.banner img{
+.banner img {
     vertical-align: bottom;
 }
 
-.box{
+.box {
     display: flex;
 }
 
-.nav{
+.nav {
     background-color: pink;
     width: 200px;
     padding: 20px;
 }
 
-.nav li{
+.nav li {
     list-style: none;
 }
 
-.nav li a{
+.nav li a {
     display: block;
     height: 60px;
     border-bottom: white 1px dashed;
@@ -61,17 +62,17 @@ html, body{
     background-color: gray;
 }
 
-.nav li:last-child a{
+.nav li:last-child a {
     border-bottom: none;
 }
 
-.content{
+.content {
     background-color: rgb(87, 87, 241);
     width: 1000px;
     padding: 20px;
 }
 
-.content h2{
+.content h2 {
     background-image: url(./share/title_bg.png);
     width: 600px;
     height: 40px;
@@ -80,7 +81,7 @@ html, body{
     margin-bottom: 15px;
 }
 
-.content h3{
+.content h3 {
     background-color: #b58628;
     border-left: 20px #8a420b solid;
     width: 400px;
@@ -90,31 +91,32 @@ html, body{
     margin-bottom: 15px;
 }
 
-.content p{
+.content p {
     margin-bottom: 10px;
+    text-align: justify;
 }
 
-.content img{
+.content img {
     border-radius: 30px;
     border: #FFF 7px solid;
     box-shadow: 2px 2px 5px #333;
 }
 
-.float-l{
+.float-l {
     float: left;
     margin: 10px 10px 10px 0;
 }
 
-.float-r{
+.float-r {
     float: right;
     margin: 10px 0px 10px 10px;
 }
 
-.clear{
+.clear {
     clear: both;
 }
 
-.footer{
+.footer {
     background-color: #3d3d3d;
     color: white;
     text-align: center;

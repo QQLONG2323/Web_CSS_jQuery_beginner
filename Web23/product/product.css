@@ -1,0 +1,22 @@
+.ALL{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.pbox{
+    background-color: #ffd4d4;
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.pbox img{
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.pbox p {
+    text-align: center;
+}
