@@ -1,4 +1,66 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+    background-image: url(../../share/bg.gif);
+}
+
+.container{
+    background-color: white;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    background-color: rgb(235, 192, 114);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.header ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.header li a{
+    margin: 3px;
+}
+
+.banner img{
+    vertical-align: bottom;
+}
+
+.box{
+    display: flex;
+}
+
+.nav{
+    background-color: pink;
+    width: 200px;
+    padding: 20px;
+}
+
+.nav li{
+    list-style: none;
+}
+
+.nav li a{
+    display: block;
+    height: 60px;
+    border-bottom: white 1px dashed;
+    line-height: 60px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.content{
+    background-color: rgb(87, 87, 241);
+    width: 1000px;
 }
