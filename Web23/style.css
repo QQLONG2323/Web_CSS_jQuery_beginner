@@ -69,7 +69,49 @@ html, body{
     background-color: rgb(87, 87, 241);
     width: 1000px;
     padding: 20px;
-    color: red;
+}
+
+.content h2{
+    background-image: url(./share/title_bg.png);
+    width: 600px;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 10px;
+    margin-bottom: 15px;
+}
+
+.content h3{
+    background-color: #b58628;
+    border-left: 20px #8a420b solid;
+    width: 400px;
+    height: 30px;
+    line-height: 30px;
+    text-indent: 10px;
+    margin-bottom: 15px;
+}
+
+.content p{
+    margin-bottom: 10px;
+}
+
+.content img{
+    border-radius: 30px;
+    border: #FFF 7px solid;
+    box-shadow: 2px 5px 2px white;
+}
+
+.float-l{
+    float: left;
+    margin: 10px 10px 10px 0;
+}
+
+.float-r{
+    float: right;
+    margin: 10px 0px 10px 10px;
+}
+
+.clear{
+    clear: both;
 }
 
 .footer{
