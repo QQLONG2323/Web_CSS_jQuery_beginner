@@ -91,7 +91,7 @@ body {
     margin-bottom: 15px;
 }
 
-.content p {
+.content>p {
     margin-bottom: 10px;
     text-align: justify;
 }
