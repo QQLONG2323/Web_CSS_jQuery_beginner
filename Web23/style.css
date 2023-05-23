@@ -97,7 +97,7 @@ html, body{
 .content img{
     border-radius: 30px;
     border: #FFF 7px solid;
-    box-shadow: 2px 5px 2px white;
+    box-shadow: 2px 2px 5px #333;
 }
 
 .float-l{
