@@ -44,6 +44,7 @@ body {
 
 .header li a {
     margin-right: 10px;
+    color: #666;
 }
 
 .header li a:hover {}
@@ -195,6 +196,19 @@ body {
         border-radius: 50%;
         text-align: center;
         line-height: 30px;
+    }
+
+    .header li {}
+
+    .header li a {
+        display: block;
+        background-color: hsla(0, 0%, 100%, 0.299);
+        margin: 0 0 6px 0;
+        padding: 10px 30px;
+        color: #FFF;
+        text-decoration: none;
+        text-align: center;
+
     }
 
     .office {
