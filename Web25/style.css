@@ -3,7 +3,9 @@
 /*===母層===*/
 .box {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    /*grid-template-columns: 30% 300px auto;*/
+    /*grid-template-columns: 2fr 1fr 1fr 1fr 1fr;*/
+    grid-template-areas: 'a a . . .' 'a a b b .' 'a a b b c';
     gap: 5px;
 
 }
@@ -22,17 +24,19 @@
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 3;*/
-    grid-column: 1/span 2;
-    grid-row: 1/4;
+    /*grid-column: 1/span 2;
+    grid-row: 1/4;*/
+    grid-area: a;
 }
 
 .b2 {
     background-color: #FFD6BB;
-    
+    grid-area: b;
 }
 
 .b3 {
     background-color: #FFF9AA;
+    grid-area: c;
 }
 
 .b4 {
@@ -41,8 +45,8 @@
 
 .b5 {
     background-color: #9DEF9A;
-    grid-row-start: 2;
-    grid-row-end: 4;
+    /*grid-row-start: 2;
+    grid-row-end: 4;*/
 }
 
 .b6 {
@@ -51,10 +55,10 @@
 
 .b7 {
     background-color: #8BDFDD;
-    grid-column-start: 2;
+    /*grid-column-start: 2;
     grid-column-end: 5;
     grid-row-start: 3;
-    grid-row-end: 5;
+    grid-row-end: 5;*/
 }
 
 .b8 {
@@ -75,4 +79,36 @@
 
 .b12 {
     background-color: #F495E2;
+}
+
+.b13 {
+    background-color: #F495E2;
+}
+
+.b14 {
+    background-color: #8FBAED;
+}
+
+.b15 {
+    background-color: #5071D9;
+}
+
+.b16 {
+    background-color: #8778E5;
+}
+
+.b17 {
+    background-color: #D187ED;
+}
+
+.b18 {
+    background-color: #F495E2;
+}
+
+.b19 {
+    background-color: #F495E2;
+}
+
+.b20 {
+    background-color: #8778E5;
 }
