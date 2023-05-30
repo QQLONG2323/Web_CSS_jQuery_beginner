@@ -1,5 +1,6 @@
 $(function () {
-
+    /*hover(鼠標滑到, 鼠標滑走)*/
+    /*stop(是否取消連續觸發, 是否馬上結束「前面」的動畫)*/
     $('#MENU1').hover(function () {
         $('#SUB1').stop(true, true).slideDown(500);
     },
