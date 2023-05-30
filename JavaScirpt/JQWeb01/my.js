@@ -2,7 +2,7 @@
     alert('HELLO');
 }*/
 
-/*windows.onload = function(){
+/*window.onload = function(){
     document.getElementById("tt").style.color='#00f'
 }*/
 
