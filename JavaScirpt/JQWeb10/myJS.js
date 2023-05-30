@@ -1,21 +1,16 @@
 $(function () { 
 
-    $('.box').hover(function () { 
-        $(this).addClass('BGBG')
+    $('.box').hover(function () {
+        $(this).addClass('BGBG');
 
 
 
-    }, function () { 
-        $(this).removeClass('BGBG')
+    }, function () {
+        $(this).removeClass('BGBG');
 
 
 
-    })
-
-
-
-
-
+    });
 
 
 
