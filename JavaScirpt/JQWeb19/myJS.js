@@ -25,6 +25,7 @@ $(function () {
 
         //$(this).nextAll().not('p').add('body').css({ 'background-color': 'yellow' });
         //$(this).nextAll().slice(5).css({ 'background-color': 'yellow' });
+        //$(this).nextAll().slice(5, 7).css({ 'background-color': 'yellow' });
 
         $(this).siblings().filter(':lt(5)').css({ 'background-color': 'yellow' });
 
