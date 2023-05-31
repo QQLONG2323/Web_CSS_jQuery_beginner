@@ -173,10 +173,11 @@ body {
         top: 30px;
         right: 30px;
         display: block;
+        cursor: pointer;
     }
 
     .header ul {
-        display: block;
+        display: none;
         position: absolute;
         background-color: #631212;
         right: 30px;
@@ -196,6 +197,7 @@ body {
         border-radius: 50%;
         text-align: center;
         line-height: 30px;
+        cursor: pointer;
     }
 
     .header li {}
