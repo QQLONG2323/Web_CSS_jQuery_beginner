@@ -177,7 +177,7 @@ body {
     }
 
     .header ul {
-        display: none;
+        display: block;
         position: absolute;
         background-color: #631212;
         right: 30px;
