@@ -1,6 +1,6 @@
-$(function () { 
+$(function () {
 
-    $('#gotop').click(function () { 
+    $('#gotop').click(function (event) {
 
         $('html, body').animate({ scrollTop: 0 }, 800);
         event.preventDefault();
@@ -8,8 +8,7 @@ $(function () {
 
 
 
-
-    })
+    });
 
 
 
